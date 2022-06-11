@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba752b62-14a3-442e-addc-b7af68754e7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/itemresources/GenomePurrnalysis_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemresources/alexacatupdate_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemresources/cardboardbox_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemresources/catablet_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemresources/catchynames_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemresources/catpi_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemresources/catscan_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemresources/catwine_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemresources/hellopurrrse_10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemresources/networcat_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemresources/robocat_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/itemresources/vpurrsimulator_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilePersistenceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PersistenceManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/catshop/CatShopItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/catshop/CatShopItems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +40,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Mewxy/IdeaProjects/PictureDisplayGUI/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mewxy\IdeaProjects\PictureDisplayGUI\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mewxy\IdeaProjects\PictureDisplayGUI\src\itemresources" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.CatShopItems">
     <configuration name="CatShopItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="catshop.CatShopItems" />
@@ -93,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654903706243</updated>
-      <workItem from="1654903707604" duration="8142000" />
+      <workItem from="1654903707604" duration="8739000" />
     </task>
     <task id="LOCAL-00001" summary="Creating panel and jtable">
       <created>1654905669706</created>
@@ -109,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654911138283</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding Pictures to itemresources package">
+      <created>1654913166126</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654913166126</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating panel and jtable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating panel and jtable" />
+    <MESSAGE value="Adding Pictures to itemresources package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Pictures to itemresources package" />
   </component>
 </project>
