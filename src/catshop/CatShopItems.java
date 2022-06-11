@@ -1,9 +1,12 @@
 package catshop;
 
+import domain.Shop;
+
 import javax.swing.*;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
+import java.io.IOException;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -11,8 +14,10 @@ import javax.swing.border.EmptyBorder;
 
 public class CatShopItems extends JFrame {
 
+    private Shop shop = new Shop("Shop");
     private JPanel contentPane;
     private JTable itemDisplay;
+
 
     /**
      * Launch the application.
@@ -39,7 +44,7 @@ public class CatShopItems extends JFrame {
     /**
      * Create the frame.
      */
-    public CatShopItems() {
+    public CatShopItems() throws IOException, ClassNotFoundException {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 450, 300);
         contentPane = new JPanel();
