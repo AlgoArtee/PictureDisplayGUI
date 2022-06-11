@@ -26,7 +26,7 @@ public class ItemManager implements Serializable {
 
     public ItemManager() throws IOException, ClassNotFoundException {
 
-        addFirstItems(this.itemList);
+        //addFirstItems(this.itemList);
 
 
         // write Item List to File
@@ -49,22 +49,22 @@ public class ItemManager implements Serializable {
     }
 
     private void addFirstItems(Map<Integer, Item> itemList) throws IOException {
-        Item item1 = new Item("CAT Scan",1,"",true,384.9, "No, not the medical procedure! Our cat scanning device will let you know in seconds if your cat has unmet needs, psychological or physiological issues.", 10);
+        Item item1 = new Item("CAT Scan",1,"catscan_1.png",true,384.9, "No, not the medical procedure! Our cat scanning device will let you know in seconds if your cat has unmet needs, psychological or physiological issues.", 10);
         itemList.put(item1.getItemNumber(), item1);
 
-        Item item2 = new Item("Robo-Cat",2,"",false,5000.99, "Your cutest electronic companion! (Might attack other electronics in your household.)", 4);
+        Item item2 = new Item("Robo-Cat",2,"robocat_2.jpg",false,5000.99, "Your cutest electronic companion! (Might attack other electronics in your household.)", 4);
         itemList.put(item2.getItemNumber(), item2);
 
-        Item item3 = new Item("Catablet",3,"",true,499.99, "Our AI algorithms can read your cat's wishes by paw vibration and movement on the touch screen. Upgrade your cat-communication experience now, with our new tablet!", 30);
+        Item item3 = new Item("Catablet",3,"catablet_3.jpg",true,499.99, "Our AI algorithms can read your cat's wishes by paw vibration and movement on the touch screen. Upgrade your cat-communication experience now, with our new tablet!", 30);
         itemList.put(item3.getItemNumber(), item3);
 
-        Item item4 = new BulkItem("CatPi",4,"",true,60.50, "The ultimate guide for programming cat-related sensors with Raspberry Pi", 3, 5);
+        Item item4 = new BulkItem("CatPi",4,"catpi_4.png",true,60.50, "The ultimate guide for programming cat-related sensors with Raspberry Pi", 3, 5);
         itemList.put(item4.getItemNumber(), item4);
 
-        Item item5 = new Item("Genome Purrnalysis",5,"",true,1880.00,"Analyse your cat's genome with this awesome new device!", 112);
+        Item item5 = new Item("Genome Purrnalysis",5,"GenomePurrnalysis_5.jpg",true,1880.00,"Analyse your cat's genome with this awesome new device!", 112);
         itemList.put(item5.getItemNumber(), item5);
 
-        Item item6 = new BulkItem("NetworCat",6,"",true,250.50, "Ever struggled with getting your cat to accept new cats? Forget weeks of trying to get cats familiar with each other! This device will process each cat's odour, mix it, reproduce it, and spray it in the environment. Your new cat will be accepted within hours!", 27, 2);
+        Item item6 = new BulkItem("NetworCat",6,"networcat_6.jpg",true,250.50, "Ever struggled with getting your cat to accept new cats? Forget weeks of trying to get cats familiar with each other! This device will process each cat's odour, mix it, reproduce it, and spray it in the environment. Your new cat will be accepted within hours!", 27, 2);
         itemList.put(item6.getItemNumber(), item6);
 
 

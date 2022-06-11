@@ -121,8 +121,8 @@ public class Shop {
         return this.logInManager.getUserType();
     }
 
-    public void addItem(String itemName, int number, boolean isAvailable, double price, String description, int inStock) throws ItemAlreadyExistsException {
-        Item newItem = new Item(itemName, number, isAvailable, price, description, inStock);
+    public void addItem(String itemName, int number, String pic, boolean isAvailable, double price, String description, int inStock) throws ItemAlreadyExistsException {
+        Item newItem = new Item(itemName, number, pic, isAvailable, price, description, inStock);
 
         try {
             this.itemManager.insertItem(number, newItem);
