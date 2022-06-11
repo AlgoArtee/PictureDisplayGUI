@@ -11,6 +11,7 @@ import java.io.IOException;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.table.DefaultTableModel;
 
 public class CatShopItems extends JFrame {
 
@@ -47,6 +48,7 @@ public class CatShopItems extends JFrame {
     public CatShopItems() throws IOException, ClassNotFoundException {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 450, 300);
+
         contentPane = new JPanel();
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
         contentPane.setLayout(new BorderLayout(0, 0));
@@ -55,6 +57,30 @@ public class CatShopItems extends JFrame {
         itemDisplay = new JTable();
         contentPane.add(itemDisplay, BorderLayout.CENTER);
 
+        loadShopItems();
+
     }
 
+    private void loadShopItems() throws IOException, ClassNotFoundException {
+
+        shop.getInventory();
+
+        DefaultTableModel dtf = new DefaultTableModel(){
+            @Override
+            public boolean isCellEditable(int row, int column){
+                return false;
+            }
+        };
+
+        dtf.addColumn("Id");
+        dtf.addColumn("Name");
+        dtf.addColumn("Photo");
+        dtf.addColumn("Availability");
+        dtf.addColumn("Price");
+        dtf.addColumn("Description");
+        dtf.addColumn("In Stock");
+        dtf.addColumn("Bulk Size");
+
+        itemDisplay.setModel(dtf);
+    }
 }
