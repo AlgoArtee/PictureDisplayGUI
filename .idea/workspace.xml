@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba752b62-14a3-442e-addc-b7af68754e7f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/catshop/CatShopItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/catshop/CatShopItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/ItemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/ItemManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/valueobjects/BulkItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/valueobjects/BulkItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/valueobjects/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/valueobjects/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +31,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2APGFKXx8Uxs0lurwx0FRSjyEzQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -90,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654903706243</updated>
-      <workItem from="1654903707604" duration="10556000" />
+      <workItem from="1654903707604" duration="11503000" />
     </task>
     <task id="LOCAL-00001" summary="Creating panel and jtable">
       <created>1654905669706</created>
@@ -134,13 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654914206354</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding Some Shop - Relevant Classes">
+      <created>1654915561909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654915561909</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Creating panel and jtable" />
     <MESSAGE value="Adding Pictures to itemresources package" />
     <MESSAGE value="Adding Some Shop - Relevant Classes" />

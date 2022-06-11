@@ -13,6 +13,7 @@ import java.io.Serializable;
 public class Item implements Serializable {
     private String itemName = "";
     private int itemNumber = 0;
+    private String pic;
     private boolean isAvailable = false;
     private double price = 0.00;
     private String description = "";
@@ -20,9 +21,11 @@ public class Item implements Serializable {
     int bulkSize = 0;
 
 
-    public Item(String itemName, int itemNumber, boolean isAvailable, double price, String description, int inStock) {
+
+    public Item(String itemName, int itemNumber,String pic, boolean isAvailable, double price, String description, int inStock) {
         this.itemName = itemName;
         this.itemNumber = itemNumber;
+        this.pic = pic;
         this.isAvailable = isAvailable;
         this.price = price;
         this.description = description;
@@ -35,6 +38,10 @@ public class Item implements Serializable {
 
     public int getItemNumber() {
         return this.itemNumber;
+    }
+
+    public String getPic() {
+        return pic;
     }
 
     public int getAmountInStock() {
