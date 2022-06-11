@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba752b62-14a3-442e-addc-b7af68754e7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FilePersistenceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersistenceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/valueobjects/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/valueobjects/BulkItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/valueobjects/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/valueobjects/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/valueobjects/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/valueobjects/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/valueobjects/LogEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/valueobjects/Receipt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/valueobjects/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654903706243</updated>
-      <workItem from="1654903707604" duration="8739000" />
+      <workItem from="1654903707604" duration="9129000" />
     </task>
     <task id="LOCAL-00001" summary="Creating panel and jtable">
       <created>1654905669706</created>
@@ -114,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654913166126</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding Some Shop - Relevant Classes">
+      <created>1654913986953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654913986953</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +136,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating panel and jtable" />
     <MESSAGE value="Adding Pictures to itemresources package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Pictures to itemresources package" />
+    <MESSAGE value="Adding Some Shop - Relevant Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Some Shop - Relevant Classes" />
   </component>
 </project>
