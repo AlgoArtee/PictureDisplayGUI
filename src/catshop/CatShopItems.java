@@ -12,6 +12,7 @@ import javax.swing.border.EmptyBorder;
 public class CatShopItems extends JFrame {
 
     private JPanel contentPane;
+    private JTable itemDisplay;
 
     /**
      * Launch the application.
@@ -45,6 +46,10 @@ public class CatShopItems extends JFrame {
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
         contentPane.setLayout(new BorderLayout(0, 0));
         setContentPane(contentPane);
+
+        itemDisplay = new JTable();
+        contentPane.add(itemDisplay, BorderLayout.CENTER);
+
     }
 
 }
