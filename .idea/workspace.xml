@@ -21,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -94,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654903706243</updated>
       <workItem from="1654903707604" duration="14562000" />
-      <workItem from="1655328127225" duration="2108000" />
+      <workItem from="1655328127225" duration="5311000" />
     </task>
     <task id="LOCAL-00001" summary="Creating panel and jtable">
       <created>1654905669706</created>
@@ -173,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655329424278</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Column Names">
+      <created>1655330462131</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655330462131</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
