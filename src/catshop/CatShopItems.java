@@ -86,5 +86,7 @@ public class CatShopItems extends JFrame {
         dtf.addColumn("Bulk Size");
 
         itemDisplay.setModel(dtf);
+        //itemDisplay.setRowHeight(0,100);
+        itemDisplay.setRowHeight(50);
     }
 }
